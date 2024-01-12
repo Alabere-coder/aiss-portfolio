@@ -18,7 +18,7 @@ const Header = () => {
           I am an awesome Front End Developer.
         </h2>
       </div>
-      <div className="text-center mx-auto  w-[25rem] h-[25rem] rounded-t-full bg-gradient-to-b from-colorPrimary to-colorBgPrimary pt-4 opacity-60 hover:opacity-100 brightness-60 hover:brightness-100">
+      <div className="text-center mx-auto  w-[25rem] h-[25rem] max-md:w-[20rem] rounded-t-full bg-gradient-to-b from-colorPrimary to-colorBgPrimary pt-4 opacity-60 hover:opacity-100 brightness-60 hover:brightness-100">
         <Image src="/smile2.png" width={500} height={500} alt="bg image" />
       </div>
     </div>
