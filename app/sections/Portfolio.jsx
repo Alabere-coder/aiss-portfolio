@@ -27,8 +27,8 @@ const Portfolio = () => {
             lang5={""}
             end={"justify-end"}
             flex_Dir={"lg:flex-row flex-col-reverse"}
-            live={"https://visionary-cactus-89f6e7.netlify.app/"}
-            github={"https://github.com/Intelligence247/rolexWristWatch"}
+            live={"#"}
+            github={"#"}
             top={"top-[28%]"}
           />
           <Eachproject
@@ -43,8 +43,8 @@ const Portfolio = () => {
             lang4={"API"}
             lang5={"TailWindCss"}
             flex_Dir={"lg:flex-row-reverse flex-col-reverse"}
-            live={"https://phenomenal-sunshine-547717.netlify.app/"}
-            github={"https://github.com/Intelligence247/Weather_Forcast_App"}
+            live={"#"}
+            github={"#"}
             top={"top-[28%]"}
           />
 
@@ -63,7 +63,7 @@ const Portfolio = () => {
             lang5={"Firebase"}
             end={"justify-end"}
             flex_Dir={"lg:flex-row flex-col-reverse"}
-            live={"https://webopt.netlify.app/"}
+            live={"#"}
             github={"https://github.com/Alabere-coder/job-registration.git"}
             top={"top-[20%]"}
           />
