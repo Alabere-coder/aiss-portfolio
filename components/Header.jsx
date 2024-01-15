@@ -11,10 +11,10 @@ const Header = () => {
         <p className="text-colorLight font-bold lg:text-center text-2xl mb-4">
           Hi, my name is
         </p>
-        <h1 className="text-4xl text-center sm:text-7xl font-bold text-[#ccd6f6]">
+        <h1 className="text-4xl mt-2 text-center sm:text-7xl font-bold text-[#ccd6f6]">
           ALABERE ABDULAZEEZ I.
         </h1>
-        <h2 className="text-4xl text-center my-8 sm:text-7xl font-bold text-colorLight">
+        <h2 className="text-4xl text-center mb-8 mt-4  animate-pulse sm:text-7xl font-bold text-colorLight">
           I am an awesome Front End Developer.
         </h2>
       </div>
