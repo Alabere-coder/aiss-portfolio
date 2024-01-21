@@ -13,22 +13,22 @@ const Portfolio = () => {
         />
         <div className="h-auto w-full flex flex-col lg:space-y-20 space-y-4 ">
           <Eachproject
-            img={"/portf-img1.jpg"}
-            name={"Rolex Wristwatch"}
+            img={"/todo-app.png"}
+            name={"Task-Manager App"}
             description={
-              "I used this project to practice my frontEnd skills, I built the whole structure with HTML/CSS and JavaScript, Using JavaScript loop to create multiple element in HTML, and reduces the HTML code a lot."
+              "This is a Todo-App , I built the whole structure with REACT, TAILWIND CSS and CHAKRA UI, I used Local Storage for torage. This is used to carry out the CRUD Operation and as well responsive, I look forward to add some interesting features in future"
             }
             abs_pos={"right-[2rem]"}
             text_pos={"text-right"}
-            lang1={"Html"}
-            lang2={"CSS"}
-            lang3={"Vanilla Js"}
-            lang4={"Netlify"}
+            lang1={"Vite"}
+            lang2={"React"}
+            lang3={"Tailwid Css"}
+            lang4={"Chakra Ui"}
             lang5={""}
             end={"justify-end"}
             flex_Dir={"lg:flex-row flex-col-reverse"}
-            live={"#"}
-            github={"#"}
+            live={"https://task-manager-app-teal.vercel.app"}
+            github={"https://github.com/Alabere-coder/Task-manager-app.git"}
             top={"top-[28%]"}
           />
           <Eachproject
@@ -63,16 +63,16 @@ const Portfolio = () => {
             lang5={"Firebase"}
             end={"justify-end"}
             flex_Dir={"lg:flex-row flex-col-reverse"}
-            live={"#"}
+            live={"https://job-registration.vercel.app"}
             github={"https://github.com/Alabere-coder/job-registration.git"}
-            top={"top-[20%]"}
+            top={"top-[28%]"}
           />
 
           <Eachproject
             img={"/blogpost.png"}
             name={"Blog-Posts"}
             description={
-              "I participated in a three days hackathon with over 5000 other developers across the globe. We worked alongside designers and backend developers thereby implementing an eye-cacthing, responsive and dynamic website."
+              "I built this portfolio when i was a student in ALX Software Engineering With a partner. We worked alongside desing and backend thereby implementing an eye-cacthing, responsive and dynamic website."
             }
             text_pos={"text-left"}
             lang1={"React.js"}
@@ -82,6 +82,26 @@ const Portfolio = () => {
             flex_Dir={"lg:flex-row-reverse flex-col-reverse"}
             live={"https://blogposts-six.vercel.app/"}
             github={"https://github.com/Alabere-coder/blogposts.git"}
+            top={"top-[28%]"}
+          />
+
+          <Eachproject
+            img={"/portf-img1.jpg"}
+            name={"Rolex Wristwatch"}
+            description={
+              "I used this project to practice my frontEnd skills, I built the whole structure with HTML, CSS, BOOTSTRAP and JavaScript, Using JavaScript to add some page functionality, and reduces the HTML code a lot."
+            }
+            abs_pos={"right-[2rem]"}
+            text_pos={"text-right"}
+            lang1={"Html"}
+            lang2={"CSS"}
+            lang3={"Vanilla Js"}
+            lang4={"Netlify"}
+            lang5={""}
+            end={"justify-end"}
+            flex_Dir={"lg:flex-row flex-col-reverse"}
+            live={"https://alabere-coder.github.io/Alabere-Abdulazeez/"}
+            github={"https://github.com/Alabere-coder/Alabere-Abdulazeez.git"}
             top={"top-[28%]"}
           />
         </div>
