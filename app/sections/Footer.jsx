@@ -27,19 +27,19 @@ const Footer = () => {
 
       <div className="flex justify-center gap-4 mb-16">
         <Link
-          href="#"
+          href="https://www.linkedin.com/in/abdulazeez-isiaq-84ba24259/"
           className="bg-colorBg text-white p-3 rounded-md flex border hover:bg-transparent hover:text-colorBg"
         >
-          Facebook
+          LinkedIn
         </Link>
         <Link
-          href="#"
+          href="https://twitter.com/AlabereIsiaq"
           className="bg-colorBg text-white p-3 rounded-md flex border hover:bg-transparent hover:text-colorBg"
         >
           Twitter
         </Link>
         <Link
-          href="#"
+          href="https://github.com/Alabere-coder"
           className="bg-colorBg text-white p-3 rounded-md flex border hover:bg-transparent hover:text-colorBg"
         >
           Github

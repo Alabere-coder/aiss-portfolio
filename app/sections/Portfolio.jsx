@@ -87,16 +87,16 @@ const Portfolio = () => {
 
           <Eachproject
             img={"/portf-img1.jpg"}
-            name={"Rolex Wristwatch"}
+            name={"My portfolio"}
             description={
-              "I used this project to practice my frontEnd skills, I built the whole structure with HTML, CSS, BOOTSTRAP and JavaScript, Using JavaScript to add some page functionality, and reduces the HTML code a lot."
+              "I used this project to practice my frontEnd skills, I built the whole structure with HTML, CSS, BOOTSTRAP and JavaScript, Using JavaScript to add some page functionality, and reduces the HTML and CSS code a lot."
             }
             abs_pos={"right-[2rem]"}
             text_pos={"text-right"}
             lang1={"Html"}
             lang2={"CSS"}
             lang3={"Vanilla Js"}
-            lang4={"Netlify"}
+            lang4={"BOOTSTRAP"}
             lang5={""}
             end={"justify-end"}
             flex_Dir={"lg:flex-row flex-col-reverse"}

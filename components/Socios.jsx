@@ -17,7 +17,7 @@ const Socios = () => {
       alter: "Twitter icon",
     },
     {
-      link: "https://www.linkedin.com/in/isiaq-abdul-azeez-84ba24259/",
+      link: "https://www.linkedin.com/in/abdulazeez-isiaq-84ba24259/",
       ima1: `bg-[url("/linkedin-fill.png")]`,
       ima2: `hover:bg-[url("/linkedin-fillh.png")]`,
       alter: "Linkedin icon",
