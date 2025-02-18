@@ -30,8 +30,9 @@ const AboutMe = () => {
             About Me
           </h2>
           <p className="text-base mb-2">
-            I am Alabere Isiaq, a frontend developer, that loves building
-            opensource applications for the general developer society. I enjoy
+            I'm a passionate developer, that loves building open source
+            applications for the general developer society. With expertise in
+            both frontend development and artificial intelligence, I enjoy
             building interactive and superb UIs that are highly efficient,
             convenient and friendly to the users. I am experienced in web
             development especially JavaScript and Typescript and i have built
@@ -39,7 +40,9 @@ const AboutMe = () => {
           </p>
           <p className="text-base mb-4">
             I am also passionate about writing tech articles and technology
-            including programming which are clearly open source.
+            including programming which are clearly open source. My approach
+            combines clean code, intuitive design, and cutting-edge AI
+            technologies to build solutions that make a difference.
           </p>
           <div>
             <Link

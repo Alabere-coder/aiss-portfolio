@@ -3,9 +3,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="text-colorBg h-fit w-full bg-colorPrimary py-12 text-center text-sm ">
+    <footer className="text-colorBg h-fit w-full bg-neutral-300 py-8 text-center text-sm ">
       <Link href="#" className="font-medium text-3xl mb-8 inline-block">
-        ALABERE INTEGRITY DTRUCTURED SOLUTIONS
+        ALABERE INTEGRITY STRUCTURED SOLUTIONS
       </Link>
       <ul className="flex flex-wrap justify-center gap-8 mx-auto mb-12">
         <li>
@@ -18,7 +18,7 @@ const Footer = () => {
           <Link href="#skills">Skills</Link>
         </li>
         <li>
-          <Link href="#portfolio">Portfokio</Link>
+          <Link href="#portfolio">Portfolio</Link>
         </li>
         <li>
           <Link href="#contact">Contact</Link>
@@ -47,7 +47,7 @@ const Footer = () => {
       </div>
 
       <div>
-        &copy; ALABERE INTEGRITY DTRUCTURED SOLUTIONS. All right reserved
+        &copy; ALABERE INTEGRITY STRUCTURED SOLUTIONS. All right reserved
       </div>
     </footer>
   );

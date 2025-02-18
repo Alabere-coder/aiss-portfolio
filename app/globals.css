@@ -85,7 +85,7 @@ body {
   color: var(--color-white);
   line-height: 1.9;
   scroll-behavior: smooth;
-  background-image: url(/World_map.png);
+  /* background-image: url(/World_map.png); */
   
 }
 
