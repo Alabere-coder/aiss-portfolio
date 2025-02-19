@@ -1,18 +1,21 @@
 import React from "react";
 import Headings from "../../components/Headings";
-import Eachproject from "./Eachproject";
+import EachProject from "./EachProject";
 
 const Portfolio = () => {
   return (
     <div id="portfolio" className="max-lg:px-2">
-      <div className="w-full h-auto pt-20 bg-transparent rounded-3xl" id="work">
+      <div
+        className="lg:container w-full h-auto pt-20 bg-transparent rounded-3xl"
+        id="work"
+      >
         <Headings
           text={"Some of my projects"}
           position={"start"}
           width={"w-0"}
         />
         <div className="h-auto w-full flex flex-col lg:space-y-20 space-y-4 ">
-          <Eachproject
+          <EachProject
             img={"/todo-app.png"}
             name={"Task-Manager App"}
             description={
@@ -22,7 +25,7 @@ const Portfolio = () => {
             text_pos={"text-right"}
             lang1={"Vite"}
             lang2={"React"}
-            lang3={"Tailwid Css"}
+            lang3={"Tailwind Css"}
             lang4={"Chakra Ui"}
             lang5={""}
             end={"justify-end"}
@@ -31,7 +34,7 @@ const Portfolio = () => {
             github={"https://github.com/Alabere-coder/Task-manager-app.git"}
             top={"top-[28%]"}
           />
-          <Eachproject
+          <EachProject
             img={"/portf-img2.jpg"}
             name={"Weather App"}
             description={
@@ -48,7 +51,7 @@ const Portfolio = () => {
             top={"top-[28%]"}
           />
 
-          <Eachproject
+          <EachProject
             img={"/jobcard.png"}
             name={"Job-Registration Website"}
             description={
@@ -68,7 +71,7 @@ const Portfolio = () => {
             top={"top-[28%]"}
           />
 
-          <Eachproject
+          <EachProject
             img={"/blogpost.png"}
             name={"Blog-Posts"}
             description={
@@ -85,7 +88,7 @@ const Portfolio = () => {
             top={"top-[28%]"}
           />
 
-          <Eachproject
+          <EachProject
             img={"/portf-img1.jpg"}
             name={"My portfolio"}
             description={

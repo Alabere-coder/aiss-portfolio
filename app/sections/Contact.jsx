@@ -19,29 +19,43 @@ const Contact = () => {
 
       <div className="contact__items w-full flex justify-center items-center gap-16 ">
         <div className="w-[30%] contact__item  flex flex-col gap-5">
-          <article className="bg-colorBgVariat p-5 rounded-2xl text-center border border-transparent hover:bg-transparent hover:border-colorPrimary">
-            <MdOutlineEmail className="mx-auto text-2xl" />
-            <h4>Email</h4>
+          <article className="bg-colorBgVariat p-5 rounded-2xl text-center border border-transparent">
+            <div className="flex justify-center items-center gap-2">
+              <MdOutlineEmail className="text-2xl text-red-500" />
+              <h4>Email</h4>
+            </div>
             <h5>alabere007@gmail.com</h5>
             <Link
               target="_blank"
               href="mailto:alabere007@gmail.com"
-              className="border p-2 rounded-md"
+              className=""
             >
-              Send a message
+              <Button
+                variant="secondary"
+                className="mt-4 w-full text-white hover:text-sky-600 font-bold bg-sky-600"
+              >
+                Send Message
+              </Button>
             </Link>
           </article>
 
-          <article className="bg-colorBgVariat p-5 rounded-md text-center border border-transparent hover:bg-transparent hover:border-colorPrimary">
-            <MdOutlineWhatsapp className="mx-auto text-2xl" />
-            <h4>WhatsApp</h4>
+          <article className="bg-colorBgVariat p-5 rounded-md text-center border border-transparent">
+            <div className="flex justify-center items-center gap-2">
+              <MdOutlineWhatsapp className="text-green-600 text-2xl" />
+              <h4>WhatsApp</h4>
+            </div>
             <h5>+2349044348459</h5>
             <Link
               target="_blank"
               href="https://api.whatsapp.com/send?phone=2349044348459&text=Hello%20I%20will%20like%20to%20Hire%20You"
-              className="border p-2 rounded-md"
+              className=""
             >
-              Send Message
+              <Button
+                variant="secondary"
+                className="mt-4 w-full text-white hover:text-green-600 font-bold bg-green-600"
+              >
+                Send Message
+              </Button>
             </Link>
           </article>
         </div>
@@ -65,7 +79,7 @@ const Contact = () => {
             placeholder="Your Message Please"
           />
 
-          <Button>Send Message</Button>
+          <Button variant="secondary">Send Message</Button>
         </form>
       </div>
     </div>

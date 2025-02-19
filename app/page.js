@@ -25,14 +25,14 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main className="lg:container">
+      <main>
         <PopUp />
         <Header />
         <Nav />
         <AboutMe />
+        <Portfolio />
         <Skills />
         <Socios />
-        <Portfolio />
         <Contact />
       </main>
       <Footer />

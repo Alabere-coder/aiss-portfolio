@@ -7,7 +7,7 @@ const Headings = (props) => {
     >
       <div className="flex items-baseline gap-4 w-max">
         <span className="text-primary1">{props.num}</span>
-        <p className="text-var_color lg:text-4xl text-[1.2rem] font-[700]">
+        <p className="text-neutralBg-300 lg:text-4xl text-[1.2rem] font-[700]">
           {props.text}
         </p>
       </div>

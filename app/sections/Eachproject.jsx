@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-const Eachproject = ({
+const EachProject = ({
   name,
   description,
   lang1,
@@ -47,7 +47,7 @@ const Eachproject = ({
       >
         <div className="projectTitle">
           <p className={`${text_pos} text-primary1 text-[13px] mb-2`}>
-            Feautured Project
+            Featured Project
           </p>
           <h1
             className={`text-var_color font-[700] ${text_pos} text-[1.5rem] lg:mb-0 mb-4`}
@@ -87,4 +87,4 @@ const Eachproject = ({
   );
 };
 
-export default Eachproject;
+export default EachProject;

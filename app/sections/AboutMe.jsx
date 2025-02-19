@@ -5,8 +5,8 @@ import { HiArrowNarrowRight } from "react-icons/hi";
 
 const AboutMe = () => {
   return (
-    <section className="mt-16 max-lg:px-4" id="about">
-      <h1 className="text-[2rem] max-lg:text-[1rem] text-center font-bold text-var_color mb-4">
+    <section className="my-16 max-lg:px-4 lg:container" id="about">
+      <h1 className="text-[2rem] max-lg:text-[1rem] text-center font-bold text-neutral-200 mb-4">
         Get to Know About Me
       </h1>
 
