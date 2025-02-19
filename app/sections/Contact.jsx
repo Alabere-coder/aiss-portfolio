@@ -21,7 +21,7 @@ const Contact = () => {
         <div className="w-[30%] contact__item  flex flex-col gap-5">
           <article className="bg-colorBgVariat p-5 rounded-2xl text-center border border-transparent">
             <div className="flex justify-center items-center gap-2">
-              <MdOutlineEmail className="text-2xl text-red-500" />
+              <MdOutlineEmail className="text-2xl text-yellow-600" />
               <h4>Email</h4>
             </div>
             <h5>alabere007@gmail.com</h5>
