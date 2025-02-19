@@ -30,7 +30,7 @@ const AboutMe = () => {
             About Me
           </h2>
           <p className="text-base mb-2">
-            I'm a passionate developer, that loves building open source
+            I am a passionate developer, that loves building open source
             applications for the general developer society. With expertise in
             both frontend development and artificial intelligence, I enjoy
             building interactive and superb UIs that are highly efficient,
