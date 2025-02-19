@@ -18,7 +18,7 @@ const Header = () => {
             transition={{ duration: 0.5 }}
           >
             <p className="text-colorLight font-bold lg:text-center text-2xl mb-4">
-              Hello, I'm
+              Hello, I am
             </p>
             <h1 className=" mt-2 text-center max-md:text-4xl text-5xl font-bold text-neutralBg-200">
               Alabere Abdulazeez I.
